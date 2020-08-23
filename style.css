@@ -1,0 +1,72 @@
+
+body{
+    background: linear-gradient(to right, red,orangered,orange);
+    margin: 5%;
+    padding: 5%;
+}
+div{
+    color:whitesmoke;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50px;
+    background: linear-gradient(to right, rgba(70, 192, 70, 0.87), forestgreen, green, darkgreen);
+    box-shadow:  0px 0px 5px 10px darkred;
+}
+#skanda, h3{
+    background-color: black;
+    box-shadow: 0px 0px 0px 6.3px yellow;
+    color: whitesmoke;
+    border-radius: 5px ;
+}
+h3,h1,h2{
+    text-align: center;
+}
+h3{
+    font-size: 25px;
+    background-color: ;
+}
+img{
+    height: 500px;
+border-image-width: auto;
+margin-left: 270px;
+
+}
+h4{
+    font-size: 150%;
+    color: darkorange;
+    background-color: paleturquoise;
+    text-align: center;
+    border-radius: 20px;
+
+}
+h2{
+    color: saddlebrown;
+    background-color: mintcream;
+    border-radius: 10px;
+}
+h2:hover{
+    cursor: pointer;
+    animation: mymove 3.6s infinite;
+    font-size: 0%;
+    box-shadow: 0px 0px 20px 20px lightblue;
+}
+@keyframes mymove{
+    from{
+        font-size: 153%;
+        color:gold;
+    }
+    to{
+        font-size: 270%;
+        color: purple;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lemonada&display=swap');
+h6,p{
+    font-weight: lighter;
+    font-size: 15px;
+    font-family: 'Lemonada', cursive;
+}
+hr{
+    color: pink;
+}
